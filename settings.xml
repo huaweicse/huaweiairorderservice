@@ -156,12 +156,19 @@ under the License.
       <name>Human Readable Name for this Mirror.</name>
       <url>http://my.repository.com/repo/path</url>
     </mirror>
-     -->
+
     <mirror>
       <id>mirrorId</id>
       <mirrorOf>*</mirrorOf>
       <name>Mirror of Huawei CSE.</name>
       <url>http://maven.huaweicse.cn/nexus/content/groups/public</url>
+    </mirror>
+     -->
+    <mirror>
+      <id>mirrorId</id>
+      <mirrorOf>*</mirrorOf>
+      <name>Mirror of Huawei CSE.</name>
+      <url>http://117.78.32.218/nexus/content/groups/public</url>
     </mirror>
  </mirrors>
 
