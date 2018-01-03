@@ -99,10 +99,10 @@
             <groupId>com.huawei.paas.cse</groupId>
             <artifactId>cse-handler-performance-stats</artifactId>
         </dependency>
-        <dependency>
+        <!-- <dependency>
             <groupId>com.huawei.paas.cse</groupId>
             <artifactId>cse-handler-tracing-apm</artifactId>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>com.huawei.paas.cse</groupId>
             <artifactId>cse-handler-tracing</artifactId>
