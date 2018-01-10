@@ -88,21 +88,23 @@ under the License.
    | specification in this list marked as active will be used.
    |-->
   <proxies>
-    <!-- proxy
-     | Specification for one proxy, to be used in connecting to the network.
-     |
-    <proxy>
-      <id>optional</id>
-      <active>true</active>
-      <protocol>http</protocol>
-      <username>proxyuser</username>
-      <password>proxypass</password>
-      <host>proxy.host.net</host>
-      <port>80</port>
-      <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
-    </proxy>
-    -->
-  </proxies>
+        <proxy>
+            
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>10.10.23.191</host>
+            <port>3128</port>
+            <nonProxyHosts>*.huaweicloud.com|*.hwclouds.com</nonProxyHosts>
+        </proxy>
+        <proxy>
+            
+            <active>true</active>
+            <protocol>https</protocol>
+            <host>10.10.23.191</host>
+            <port>3128</port>
+            <nonProxyHosts>*.huaweicloud.com|*.hwclouds.com</nonProxyHosts>
+        </proxy>
+   </proxies>
 
   <!-- servers
    | This is a list of authentication profiles, keyed by the server-id used within the system.
