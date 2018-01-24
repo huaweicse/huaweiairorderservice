@@ -87,7 +87,7 @@ under the License.
    | Unless otherwise specified (by system property or command-line switch), the first proxy
    | specification in this list marked as active will be used.
    |-->
-  <proxies>
+  <!-- <proxies>
         <proxy>
             
             <active>true</active>
@@ -104,7 +104,7 @@ under the License.
             <port>3128</port>
             <nonProxyHosts>*.huaweicloud.com|*.hwclouds.com</nonProxyHosts>
         </proxy>
-   </proxies>
+   </proxies> -->
 
   <!-- servers
    | This is a list of authentication profiles, keyed by the server-id used within the system.
@@ -170,7 +170,7 @@ under the License.
       <id>mirrorId</id>
       <mirrorOf>*</mirrorOf>
       <name>Mirror of Huawei CSE.</name>
-      <url>http://117.78.32.218/nexus/content/groups/public</url>
+      <url>http://maven.huaweicse.com/nexus/content/groups/public</url>
     </mirror>
  </mirrors>
 
