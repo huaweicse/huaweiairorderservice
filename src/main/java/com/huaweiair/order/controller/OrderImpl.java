@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import io.servicecomb.provider.rest.common.RestSchema;
+import org.apache.servicecomb.provider.rest.common.RestSchema;
 
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.CseSpringoCodegen", date = "2017-11-04T17:20:51.183+08:00")
 
