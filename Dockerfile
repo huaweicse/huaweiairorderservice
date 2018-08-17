@@ -1,4 +1,4 @@
-FROM 100.125.0.198:20202/servicestage/openjdk:8-jre-alpine
+FROM swr.cn-north-1.myhuaweicloud.com/servicestage/openjdk:8-jre-alpine
 
 WORKDIR /home/apps/
 ADD target/order-1.0.0.jar .
