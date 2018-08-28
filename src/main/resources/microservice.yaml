@@ -22,7 +22,3 @@ cse:
     chain:
       Provider:
         default: bizkeeper-provider,perf-stats,tracing-provider,sla-provider,qps-flowcontrol-provider
-  credentials:
-    accessKey: SQXZYPSDEZAWY10RACO7
-    secretKey: zMgxdKKD9Fh5owFeZGNSBhgeE1iHk7YmLLm0J4Ns
-    akskCustomCipher: default
