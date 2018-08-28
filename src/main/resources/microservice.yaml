@@ -1,4 +1,5 @@
-APPLICATION_ID: acmeair
+appId: acmeair
+APPLICATION_ID: ${appId}
 service_description:
   name: OrderService
   version: 0.0.7
@@ -22,7 +23,3 @@ cse:
     chain:
       Provider:
         default: bizkeeper-provider,perf-stats,tracing-provider,sla-provider,qps-flowcontrol-provider
-  credentials:
-    accessKey: ak
-    secretKey: sk
-    akskCustomCipher: default
