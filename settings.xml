@@ -150,9 +150,9 @@ under the License.
      -->
     <mirror>
       <id>mirrorId</id>
-      <mirrorOf>*</mirrorOf>
+	  <mirrorOf>*,!HuaweiCloudSDK</mirrorOf>
       <name>Mirror of Huawei CSE.</name>
-      <url>http://maven.huaweicse.com/nexus/content/groups/public</url>
+      <url>https://repo.huaweicloud.com/repository/maven/</url>
     </mirror>
  </mirrors>
 
@@ -253,6 +253,21 @@ under the License.
 		</repositories>
 	</profile>-->
 	<profile>
+        <id>MyProfile</id>
+        <repositories>
+            <repository>
+                <id>HuaweiCloudSDK</id>
+                <url>https://repo.huaweicloud.com/repository/maven/huaweicloudsdk/</url>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+                <snapshots>
+                    <enabled>false</enabled>
+                </snapshots>
+            </repository>
+        </repositories>
+    </profile>
+	<!-- <profile>
     <id>JDK1.7</id>
  	<activation>
  		<activeByDefault>true</activeByDefault>
@@ -263,15 +278,15 @@ under the License.
  		<maven.compiler.target>1.8</maven.compiler.target>
  		<maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
  	</properties>
- </profile>
+ </profile> -->
   </profiles>
   
   <!-- activeProfiles
    | List of profiles that are active for all builds.
    |
-  <activeProfiles>
-    <activeProfile>alwaysActiveProfile</activeProfile>
-    <activeProfile>anotherAlwaysActiveProfile</activeProfile>
-  </activeProfiles>
   -->
+  <activeProfiles>
+    <activeProfile>MyProfile</activeProfile>
+    <!-- <activeProfile>anotherAlwaysActiveProfile</activeProfile> -->
+  </activeProfiles>
 </settings>
