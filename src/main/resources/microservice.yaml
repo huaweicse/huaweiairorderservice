@@ -1,5 +1,4 @@
-appId: acmeair
-APPLICATION_ID: ${appId}
+APPLICATION_ID: acmeair
 service_description:
   name: OrderService
   version: 0.0.7
